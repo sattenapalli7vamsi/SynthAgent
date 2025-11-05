@@ -23,7 +23,6 @@
 
 ## 🧩 Architecture
 
-```mermaid
 flowchart LR
   API[FastAPI API] --> ORC[Orchestrator]
   ORC --> BUS[(InMemoryBus)]
